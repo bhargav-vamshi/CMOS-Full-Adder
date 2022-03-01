@@ -98,6 +98,8 @@ The Synopsys 28nm Process Design Kit(PDK) was used in creation and simulation of
 
 ### Schematics
 
+- [Low Power Full Adder Schematic](sources/design_FA_schematic.pdf) 
+
 ### Simulations
 
 #### Transient Analysis:
@@ -118,7 +120,7 @@ One other thing we need to keep in mind is that here we have loop for which an i
 
 ## Author:
 
-![Bhargav Vamshi Madupu](https://www.linkedin.com/in/bhargav-vamshi-madupu-395117120), Btech(ECE), B V Raju Institute Of Technology, Narsapur, Telangana
+[Bhargav Vamshi Madupu](https://www.linkedin.com/in/bhargav-vamshi-madupu-395117120), Btech(ECE), B V Raju Institute Of Technology, Narsapur, Telangana
 
 ## Acknowledgements:
 
