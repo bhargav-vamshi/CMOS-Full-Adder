@@ -7,23 +7,20 @@
  ## Table of contents
  - [Introduction](#Introduction)
  - Reference Circuits <br>
-&emsp;
- - Block Diagram <br>
-&emsp;
- - Reference Schematic <br>
-&emsp;
- - Truth Table
+&emsp;Block Diagram <br>
+&emsp;Reference Schematic <br>
+&emsp;Truth Table
  - Operation 
  - Tools Used <br>
-&emsp;- Synopsys Custom Compiler
-&emsp;- Synopsys Primewave
-&emsp;- Synopsys 28nm PD
-- Pre-Layout Schematics and Simulations
-&emsp;- Design Schematic
-&emsp;- Design Schematic Symbol
-&emsp;- Design Test Bench Schematic
-- Simulations
-&emsp;- Transient Analysis
+&emsp;Synopsys Custom Compiler <br>
+&emsp;Synopsys Primewave <br>
+&emsp;Synopsys 28nm PD 
+- Pre-Layout Schematics and Simulations <br>
+&emsp;Design Schematic <br>
+&emsp;Design Schematic Symbol <br>
+&emsp;Design Test Bench Schematic
+- Simulations <br>
+&emsp;Transient Analysis
 - Netlist of the Circuit
 - Author
 - Acknowledgements
