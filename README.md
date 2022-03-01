@@ -49,3 +49,33 @@ C_out= XY + YZ + XZ
 
 The Synopsys Custom Compiler™ design environment is a modern solution for full-custom analog, custom digital, and mixed-signal IC design. As the heart of the Synopsys Custom Design Platform, Custom Compiler provides design entry, simulation management and analysis, and custom layout editing features. This tool was used to design the circuit on a transistor level.
 
+- ### Synopsys Primewave:
+
+PrimeWave™ Design Environment is a comprehensive and flexible environment for simulation setup and analysis of analog, RF, mixed-signal design, custom-digital and memory designs within the Synopsys Custom Design Platform. This tool helped in various types of simulations of the above designed circuit.
+
+- ### Synopsys 28nm PDK:
+
+The Synopsys 28nm Process Design Kit(PDK) was used in creation and simulation of the above designed circuit.
+
+## Pre-Layout Schematics and Simulations:
+
+### Schematics
+
+### Simulations
+
+#### Transient Analysis:
+
+After creating and saving the schematic go to 'Tools' and open 'Primewave' to start the simulation. In the Primewave select the 'model file' i.e the '28nm PDK's .lib file presentin the HSPICE folder. After this select the 'tran' analysis in the analysis window and give the 'Start', 'Stop', and 'Step Size' parameters and save it. Then add the outputs which needs to be plotted by selecting the nets on the schematic.
+One other thing we need to keep in mind is that here we have loop for which an initial condition needs to be declared. For that, we have to go to 'Setup -> Convergance aids' and select the net for which we want to set an initial condition.Then go to 'Simulations -> Netlist and Run' to generate a netlist and run the simulation to get the below output.
+
+## Netlist of the Circuit:
+
+## Author:
+
+Bhargav Vamshi Madupu, Btech(ECE), B V Raju Institute Of Technology, Narsapur, Telangana
+
+## Acknowledgements:
+
+- Cloud Based Analog IC Design Hackathon
+- Synopsys India
+- VLSI System Design (VSD) Corp. Pvt. Ltd India
