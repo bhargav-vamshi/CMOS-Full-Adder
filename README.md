@@ -2,7 +2,34 @@
 
 - This repository presents the design of Low Power CMOS Full Adder implemented using Synopsis Custom Compiler on 28nm CMOS Technology.
 
- // Table of contents here
+- The proposed Abstract can be referrd [here](sources/LowPowerCmosFullAdder.pdf)
+
+ ## Table of contents
+ - [Introduction](#Introduction)
+ - Reference Circuits
+&emsp;- Block Diagram
+&emsp;- Reference Schematic
+&emsp;- Truth Table
+ - Operation 
+ - Tools Used
+&emsp;- Synopsys Custom Compiler
+&emsp;- Synopsys Primewave
+&emsp;- Synopsys 28nm PD
+- Pre-Layout Schematics and Simulations
+&emsp;- Design Schematic
+&emsp;- Design Schematic Symbol
+&emsp;- Design Test Bench Schematic
+- Simulations
+&emsp;- Transient Analysis
+- Netlist of the Circuit
+- Author
+- Acknowledgements
+- References
+
+
+
+
+
 
  ## Introduction
 - In current years due to rapid growth and development of integration system of manufacturing if ICs from small scale integration (which allow the manufacturing of ICs with 1-10 transistor in a single chip) to ultra large scale integration (which allow manufacturing of ICs which consists of billions of transistor in a single chip) which lead the development in the electronics.
