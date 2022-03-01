@@ -96,9 +96,16 @@ The Synopsys 28nm Process Design Kit(PDK) was used in creation and simulation of
 
 ## Pre-Layout Schematics and Simulations:
 
-### Schematics
+### Design Schematic
 
 - [Low Power Full Adder Schematic](sources/design_FA_schematic.pdf) 
+
+### Design Schematic Symbol
+
+- [Low Power Full Adder Schematic](sources/design_FA_symbol.pdf)
+
+### Design Test Bench Schematic
+- [Low Power Full Adder Schematic](sources/design_FA_tb_schematic.pdf)
 
 ### Simulations
 
