@@ -18,6 +18,8 @@
 
 - A transmission gate is defined as an electronic element that will selectively block or pass a signal level from the input to the output. This solid-state switch is comprised of a PMOS transistor and NMOS transistor. The transmission gate consists of two MOSFETs, one n-channel responsible for correct transmission of logic zeros, and one p-channel, responsible for correct transmission of logic ones.
 
+## Operation
+
 - When C = 1, X and Y are connected, both logic zero and logic one are passed without degradation. A transmission gate has three inputs, called source, ngate, and p-gate; and it has one output, called drain. The two transistors, an NMOS and a PMOS are connected in parallel configuration. 
 
 - When the control input is a logic zero (negative power supply potential), the gate of the NMOS is also at a negative supply voltage potential. The gate terminal of the PMOS is caused by the inverter, to the positive supply voltage potential. Regardless of on which switching terminal of the transmission gate (X or Y) a voltage is applied, the gate-source voltage of the NMOS is always negative, and the PMOS is always positive.
@@ -40,3 +42,10 @@ C_out= XY + YZ + XZ
 ```
 
 - Transmission gate based implementation is similar to pass transistor with the difference that transmission gate logic uses both NMOS and PMOS transistors connected in parallel where as pass transistor logic uses only one type of transistor i.e. either NMOS or PMOS. 
+
+## Tools Used:
+
+- ### Synopsys Custom Compiler:
+
+The Synopsys Custom Compiler™ design environment is a modern solution for full-custom analog, custom digital, and mixed-signal IC design. As the heart of the Synopsys Custom Design Platform, Custom Compiler provides design entry, simulation management and analysis, and custom layout editing features. This tool was used to design the circuit on a transistor level.
+
