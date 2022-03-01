@@ -1,0 +1,81 @@
+*  Generated for: PrimeSim
+*  Design library name: design
+*  Design cell name: FA_tb
+*  Design view name: schematic
+.lib 'saed32nm.lib' TT
+
+*Custom Compiler Version S-2021.09
+*Tue Mar  1 12:54:25 2022
+
+.global gnd!
+********************************************************************************
+* Library          : design
+* Cell             : FA
+* View             : schematic
+* View Search List : hspice hspiceD schematic spice veriloga
+* View Stop List   : hspice hspiceD
+********************************************************************************
+.subckt fa a b c_in c_out sum vdc gnd_1
+xm19 a net97 c_out vdc p105 w=0.1u l=0.03u nf=1 m=1
+xm16 c_in net98 c_out vdc p105 w=0.1u l=0.03u nf=1 m=1
+xm15 net64 net98 sum vdc p105 w=0.1u l=0.03u nf=1 m=1
+xm12 c_in net97 sum vdc p105 w=0.1u l=0.03u nf=1 m=1
+xm11 net98 net97 vdc vdc p105 w=0.1u l=0.03u nf=1 m=1
+xm10 net64 c_in vdc vdc p105 w=0.1u l=0.03u nf=1 m=1
+xm5 net32 net27 net97 vdc p105 w=0.1u l=0.03u nf=1 m=1
+xm4 a b net97 vdc p105 w=0.1u l=0.03u nf=1 m=1
+xm3 net32 a vdc vdc p105 w=0.1u l=0.03u nf=1 m=1
+xm0 net27 b vdc vdc p105 w=0.1u l=0.03u nf=1 m=1
+xm18 a net98 c_out gnd_1 n105 w=0.1u l=0.03u nf=1 m=1
+xm17 c_in net97 c_out gnd_1 n105 w=0.1u l=0.03u nf=1 m=1
+xm14 net64 net97 sum gnd_1 n105 w=0.1u l=0.03u nf=1 m=1
+xm13 c_in net98 sum gnd_1 n105 w=0.1u l=0.03u nf=1 m=1
+xm9 net64 c_in gnd_1 gnd_1 n105 w=0.1u l=0.03u nf=1 m=1
+xm8 net98 net97 gnd_1 gnd_1 n105 w=0.1u l=0.03u nf=1 m=1
+xm7 net32 b net97 gnd_1 n105 w=0.1u l=0.03u nf=1 m=1
+xm6 a net27 net97 gnd_1 n105 w=0.1u l=0.03u nf=1 m=1
+xm2 net32 a gnd_1 gnd_1 n105 w=0.1u l=0.03u nf=1 m=1
+xm1 net27 b gnd_1 gnd_1 n105 w=0.1u l=0.03u nf=1 m=1
+.ends fa
+
+********************************************************************************
+* Library          : design
+* Cell             : FA_tb
+* View             : schematic
+* View Search List : hspice hspiceD schematic spice veriloga
+* View Stop List   : hspice hspiceD
+********************************************************************************
+xi0 net20 net22 net25 c_out sum net27 gnd! fa
+v7 net22 gnd! dc=0 pulse ( 0 1 0 0.001n 0.001n 100n 200n )
+v8 net25 gnd! dc=0 pulse ( 1 0 0 0.001n 0.001n 200n 400n )
+v6 net20 gnd! dc=0 pulse ( 1 0 0 0.001n 0.001n 50n 100n )
+v9 net27 gnd! dc=1
+
+
+
+
+
+
+
+
+.tran '10n' '600n' name=tran
+
+.option primesim_remove_probe_prefix = 0
+.probe v(*) i(*) level=1
+.probe tran v(c_out) v(net20) v(net22) v(net25) v(sum)
+
+.temp 25
+
+
+
+.option primesim_output=wdf
+
+
+.option parhier = LOCAL
+
+
+
+
+
+
+.end

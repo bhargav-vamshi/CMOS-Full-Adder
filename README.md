@@ -136,6 +136,8 @@ The Synopsys 28nm Process Design Kit(PDK) was used in creation and simulation of
 
 ### Simulations
 
+The Final output [waveform](images/waveformsFinal.jpg)
+
 #### Transient Analysis:
 
 After creating and saving the schematic go to 'Tools' and open 'Primewave' to start the simulation. In the Primewave select the 'model file' i.e the '28nm PDK's .lib file presentin the HSPICE folder. After this select the 'tran' analysis in the analysis window and give the 'Start', 'Stop', and 'Step Size' parameters and save it. Then add the outputs which needs to be plotted by selecting the nets on the schematic.
@@ -153,7 +155,8 @@ One other thing we need to keep in mind is that here we have loop for which an i
 ## Netlist of the Circuit:
 
 - Full Adder Schematic [Netlist](design_FA.v)
-- Full Adder Testbench Schematic [Netlist](design_FA_tb.v) 
+- Full Adder Testbench Schematic [Netlist](design_FA_tb.v)
+- The Final [Netlist:](sources/netlist.txt) 
 
 ## Author:
 
