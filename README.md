@@ -164,9 +164,10 @@ One other thing we need to keep in mind is that here we have loop for which an i
 
 ## Acknowledgements:
 
-- Cloud Based Analog IC Design Hackathon
-- Synopsys India
-- VLSI System Design (VSD) Corp. Pvt. Ltd India
+- [Kunal Ghosh, Co-founder, VSD Corp. Pvt. Ltd.](https://www.linkedin.com/in/kunal-ghosh-vlsisystemdesign-com-28084836/)
+- [Cloud Based Analog IC Design Hackathon](https://www.iith.ac.in/events/2022/02/15/Cloud-Based-Analog-IC-Design-Hackathon/)
+- [Synopsys India](https://www.synopsys.com/)
+- [VLSI System Design (VSD) Corp. Pvt. Ltd India](https://www.linkedin.com/company/vlsi-system-design/)
 
 ## References:
 
