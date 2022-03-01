@@ -7,24 +7,24 @@
  ## Table of contents
  - [Introduction](#Introduction)
  - [Reference Circuits](#Reference-Circuits) <br>
-&emsp;Block Diagram <br>
-&emsp;Reference Schematic <br>
-&emsp;Truth Table
- - Operation 
- - Tools Used <br>
-&emsp;Synopsys Custom Compiler <br>
-&emsp;Synopsys Primewave <br>
-&emsp;Synopsys 28nm PD 
-- Pre-Layout Schematics and Simulations <br>
-&emsp;Design Schematic <br>
-&emsp;Design Schematic Symbol <br>
-&emsp;Design Test Bench Schematic
-- Simulations <br>
-&emsp;Transient Analysis
-- Netlist of the Circuit
-- Author
-- Acknowledgements
-- References
+&emsp;[Block Diagram](#Block-Diagram) <br>
+&emsp;[Reference Schematic](#Reference-Schematic) <br>
+&emsp;[Truth Table](#Truth-Table)
+ - [Operation](#Operation) 
+ - [Tools Used](#Tools-Used) <br>
+&emsp;[Synopsys Custom Compiler](#Synopsys-Custom-Compiler) <br>
+&emsp;[Synopsys Primewave](#Synopsys-Primewave) <br>
+&emsp;[Synopsys 28nm PD](#Synopsys-28nm-PD) 
+- [Pre-Layout Schematics and Simulations](#Pre-Layout-Schematics-and-Simulations) <br>
+&emsp;[Design Schematic](#Design-Schematic) <br>
+&emsp;[Design Schematic Symbol](#Design-Schematic-Symbol) <br>
+&emsp;[Design Test Bench Schematic](#Design-Test-Bench-Schematic)
+- [Simulations](#Simulations) <br>
+&emsp;[Transient Analysis](#Transient-Analysis)
+- [Netlist of the Circuit](#Netlist-of-the-Circuit)
+- [Author](#Author)
+- [Acknowledgements](#Acknowledgements)
+- [References](#References)
 
 
 
