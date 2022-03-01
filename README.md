@@ -88,6 +88,7 @@ Bhargav Vamshi Madupu, Btech(ECE), B V Raju Institute Of Technology, Narsapur, T
 
 - Cloud Based Analog IC Design Hackathon
 - Synopsys India
+<<<<<<< HEAD
 - VLSI System Design (VSD) Corp. Pvt. Ltd India
 
 ## References:
@@ -97,3 +98,6 @@ Bhargav Vamshi Madupu, Btech(ECE), B V Raju Institute Of Technology, Narsapur, T
 - N. Weste and K. Eshraghian, “Principles of CMOS VLSI Design, A System Perspective,” AddisonWesley,1993.
 - N. Zhuang and H. Wu, “A new design of the CMOS full adder,” IEEE J. Solid-State Circuits, vol. 27, no. 5, pp. 840–844, May 1992
 - https://www.ijarcce.com/upload/2015/july-15/IJARCCE%2041.pdf
+=======
+- VLSI System Design (VSD) Corp. Pvt. Ltd India
+>>>>>>> parent of 6fdf42b (Added edits)
