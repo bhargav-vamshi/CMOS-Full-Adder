@@ -70,6 +70,14 @@ Cout = A.B + Cin(A ⊕ B)
 
 ```
 
+<p align="center">
+    <img src="images/TG.jpg" width="700" height="500"/>
+    </br>
+    Transmission Gate
+    </br>
+    
+</p>
+
 - Transmission gate based implementation is similar to pass transistor with the difference that transmission gate logic uses both NMOS and PMOS transistors connected in parallel where as pass transistor logic uses only one type of transistor i.e. either NMOS or PMOS. 
 
 ## Tools Used:
@@ -91,6 +99,14 @@ The Synopsys 28nm Process Design Kit(PDK) was used in creation and simulation of
 ### Schematics
 
 ### Simulations
+
+<p align="center">
+    <img src="images/waveforms.jpg" width="700" height="500"/>
+    </br>
+    Output Waveform
+    </br>
+    
+</p>
 
 #### Transient Analysis:
 
