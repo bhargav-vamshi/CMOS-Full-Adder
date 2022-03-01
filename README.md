@@ -2,11 +2,11 @@
 
 - This repository presents the design of Low Power CMOS Full Adder implemented using Synopsis Custom Compiler on 28nm CMOS Technology.
 
-- The proposed Abstract can be referrd [here](sources/LowPowerCmosFullAdder.pdf)
+- The proposed **Abstract** can be referrd [here](sources/LowPowerCmosFullAdder.pdf)
 
  ## Table of contents
  - [Introduction](#Introduction)
- - Reference Circuits <br>
+ - [Reference Circuits](#Reference-Circuits) <br>
 &emsp;Block Diagram <br>
 &emsp;Reference Schematic <br>
 &emsp;Truth Table
