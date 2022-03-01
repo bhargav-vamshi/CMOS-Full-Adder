@@ -7,11 +7,14 @@
  ## Table of contents
  - [Introduction](#Introduction)
  - Reference Circuits <br>
-&emsp;- Block Diagram <br>
-&emsp;- Reference Schematic <br>
-&emsp;- Truth Table
+&emsp;
+ - Block Diagram <br>
+&emsp;
+ - Reference Schematic <br>
+&emsp;
+ - Truth Table
  - Operation 
- - Tools Used
+ - Tools Used <br>
 &emsp;- Synopsys Custom Compiler
 &emsp;- Synopsys Primewave
 &emsp;- Synopsys 28nm PD
