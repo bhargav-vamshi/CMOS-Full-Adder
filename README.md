@@ -100,6 +100,11 @@ The Synopsys 28nm Process Design Kit(PDK) was used in creation and simulation of
 
 ### Simulations
 
+#### Transient Analysis:
+
+After creating and saving the schematic go to 'Tools' and open 'Primewave' to start the simulation. In the Primewave select the 'model file' i.e the '28nm PDK's .lib file presentin the HSPICE folder. After this select the 'tran' analysis in the analysis window and give the 'Start', 'Stop', and 'Step Size' parameters and save it. Then add the outputs which needs to be plotted by selecting the nets on the schematic.
+One other thing we need to keep in mind is that here we have loop for which an initial condition needs to be declared. For that, we have to go to 'Setup -> Convergance aids' and select the net for which we want to set an initial condition.Then go to 'Simulations -> Netlist and Run' to generate a netlist and run the simulation to get the below output.
+
 <p align="center">
     <img src="images/waveforms.jpg" width="700" height="500"/>
     </br>
@@ -108,16 +113,12 @@ The Synopsys 28nm Process Design Kit(PDK) was used in creation and simulation of
     
 </p>
 
-#### Transient Analysis:
-
-After creating and saving the schematic go to 'Tools' and open 'Primewave' to start the simulation. In the Primewave select the 'model file' i.e the '28nm PDK's .lib file presentin the HSPICE folder. After this select the 'tran' analysis in the analysis window and give the 'Start', 'Stop', and 'Step Size' parameters and save it. Then add the outputs which needs to be plotted by selecting the nets on the schematic.
-One other thing we need to keep in mind is that here we have loop for which an initial condition needs to be declared. For that, we have to go to 'Setup -> Convergance aids' and select the net for which we want to set an initial condition.Then go to 'Simulations -> Netlist and Run' to generate a netlist and run the simulation to get the below output.
 
 ## Netlist of the Circuit:
 
 ## Author:
 
-Bhargav Vamshi Madupu, Btech(ECE), B V Raju Institute Of Technology, Narsapur, Telangana
+![Bhargav Vamshi Madupu](https://www.linkedin.com/in/bhargav-vamshi-madupu-395117120), Btech(ECE), B V Raju Institute Of Technology, Narsapur, Telangana
 
 ## Acknowledgements:
 
