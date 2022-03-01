@@ -6,9 +6,9 @@
 
  ## Table of contents
  - [Introduction](#Introduction)
- - Reference Circuits
-&emsp;- Block Diagram
-&emsp;- Reference Schematic
+ - Reference Circuits <br>
+&emsp;- Block Diagram <br>
+&emsp;- Reference Schematic <br>
 &emsp;- Truth Table
  - Operation 
  - Tools Used
