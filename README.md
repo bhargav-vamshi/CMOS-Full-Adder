@@ -65,9 +65,8 @@
 - The relations between the inputs and the outputs are expressed as: 
 
 ```
-
-Sum = XY´Z´ + X´YZ´ + XYZ + X´Y´Z
-C_out= XY + YZ + XZ
+SUM=(A⊕B) ⊕ Cin
+Cout = A.B + Cin(A ⊕ B)
 
 ```
 
