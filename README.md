@@ -28,6 +28,26 @@
     
 </p>
 
+### Reference Schematic
+
+<p align="center">
+    <img src="images/FA.jpg" width="700" height="500"/>
+    </br>
+    Full Adder
+    </br>
+    
+</p>
+
+### Truth Table
+
+<p align="center">
+    <img src="images/fA_TT.jpg" width="700" height="500"/>
+    </br>
+    Truth Table
+    </br>
+    
+</p>
+
 ## Operation
 
 - When C = 1, X and Y are connected, both logic zero and logic one are passed without degradation. A transmission gate has three inputs, called source, ngate, and p-gate; and it has one output, called drain. The two transistors, an NMOS and a PMOS are connected in parallel configuration. 
