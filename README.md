@@ -18,6 +18,15 @@
 
 - A transmission gate is defined as an electronic element that will selectively block or pass a signal level from the input to the output. This solid-state switch is comprised of a PMOS transistor and NMOS transistor. The transmission gate consists of two MOSFETs, one n-channel responsible for correct transmission of logic zeros, and one p-channel, responsible for correct transmission of logic ones.
 
+## Reference Circuits
+
+### Block Diagram
+
+<p align="center">
+    <img src="BD.jpg" width="700" height="500"/>
+    </br>
+</p>
+
 ## Operation
 
 - When C = 1, X and Y are connected, both logic zero and logic one are passed without degradation. A transmission gate has three inputs, called source, ngate, and p-gate; and it has one output, called drain. The two transistors, an NMOS and a PMOS are connected in parallel configuration. 
@@ -81,15 +90,9 @@ Bhargav Vamshi Madupu, Btech(ECE), B V Raju Institute Of Technology, Narsapur, T
 - VLSI System Design (VSD) Corp. Pvt. Ltd India
 
 ## References:
+
 - Y. Leblebici, S.M. Kang, CMOS Digital Integrated Circuits, Singapore: Mc Graw Hill, 2nd edition, 1999.
-- R. Zimmermann, and W. Fichtner, “Low-power logic
-styles: CMOS versus pass-transistor logic,” IEEE J.
-Solid State Circuits, vol. 32, no. 7, pp. 1079-1090,
-Jul. 1997.
-- N. Weste and K. Eshraghian, “Principles of CMOS
-VLSI Design, A System Perspective,” AddisonWesley,
-1993.
-- N. Zhuang and H. Wu, “A new design of the CMOS full
-adder,” IEEE J. Solid-State Circuits, vol. 27, no. 5, pp.
-840–844, May 1992
+- R. Zimmermann, and W. Fichtner, “Low-power logic styles: CMOS versus pass-transistor logic,” IEEE J. Solid State Circuits, vol. 32, no. 7, pp. 1079-1090, Jul. 1997.
+- N. Weste and K. Eshraghian, “Principles of CMOS VLSI Design, A System Perspective,” AddisonWesley,1993.
+- N. Zhuang and H. Wu, “A new design of the CMOS full adder,” IEEE J. Solid-State Circuits, vol. 27, no. 5, pp. 840–844, May 1992
 - https://www.ijarcce.com/upload/2015/july-15/IJARCCE%2041.pdf
