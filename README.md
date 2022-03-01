@@ -152,6 +152,9 @@ One other thing we need to keep in mind is that here we have loop for which an i
 
 ## Netlist of the Circuit:
 
+- Full Adder Schematic [Netlist](design_FA.v)
+- Full Adder Testbench Schematic [Netlist](design_FA_tb.v) 
+
 ## Author:
 
 [Bhargav Vamshi Madupu](https://www.linkedin.com/in/bhargav-vamshi-madupu-395117120), Btech(ECE), B V Raju Institute Of Technology, Narsapur, Telangana
